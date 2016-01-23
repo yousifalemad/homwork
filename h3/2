@@ -1,0 +1,117 @@
+# homwork<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>format</title>
+<style>
+checkbox
+{
+	background:#999
+}
+#textfield4
+{
+	background:#F00;
+}
+#textfield7
+{
+	background:#F00;
+}
+#textfield8
+{
+	background:#F00;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<table width="83%" border="1" cellpadding="2">
+  <tr>
+    <td colspan="6" bgcolor="#999999" align="center"><h4>darag header column drop</h4></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="10%">productID</td>
+    <td width="22%">product name</td>
+    <td width="19%">unit pace</td>
+    <td width="21%">quantry pas unit</td>
+    <td width="18%">unit in stock</td>
+    <td width="10%">dision</td>
+  </tr>
+  <tr bgcolor="#999999">
+    <td ><input type="text" size="5px" name="textfield" id="textfield"></td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+    <td><input type="text" size="20px" name="textfield3" id="textfield3">
+      <label for="textfield4">:</label>
+    <input type="text"size="3px" value="Y" name="textfield4" id="textfield4" B></td>
+    <td><input type="text" name="textfield5" id="textfield5"></td>
+    <td><input type="text" size="13PX" name="textfield6" id="textfield6">&nbsp; &nbsp;
+    <input type="text"  size="3PX"name="textfield7" value="Y" id="textfield7"></td>
+    <td><input type="checkbox" name="checkbox"  id="checkbox">
+    <input type="text" name="textfield8" id="textfield8" size="3px" value="Y"></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>cha</td>
+    <td>51800</td>
+    <td>10 box * 20bag</td>
+    <td>39</td>
+    <td><input type="checkbox" name="checkbox2"  id="checkbox2"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>css from</td>
+    <td>1900</td>
+    <td>4vf *2 mm</td>
+    <td>51</td>
+    <td><input type="checkbox" name="checkbox3"  id="checkbox3"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>nice</td>
+    <td>248</td>
+    <td>5 bag</td>
+    <td>22</td>
+    <td><input type="checkbox" name="checkbox4"  id="checkbox4"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>hgyg</td>
+    <td>876</td>
+    <td>4 book</td>
+    <td>55</td>
+    <td><input type="checkbox" name="checkbox5"  id="checkbox5"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>khhff</td>
+    <td>098</td>
+    <td>2 cub</td>
+    <td>56</td>
+    <td><input type="checkbox" name="checkbox6"  id="checkbox6"></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>dsrrrr</td>
+    <td>432</td>
+    <td>33 forx</td>
+    <td>78</td>
+    <td><input type="checkbox" name="checkbox7"  id="checkbox7"></td>
+  </tr>
+  <tr bgcolor="#FF00FF">
+    <td colspan="6" align="center">page
+      <select name="select" id="select">
+      <option>    1   </option>
+       <option>    2   </option>
+        <option>    3   </option>
+         <option>    4   </option>
+          <option>    5   </option>
+           <option>    6   </option>
+            
+      
+    </select></td>
+  </tr>
+</table>
+</body>
+</html>
